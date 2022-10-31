@@ -5,20 +5,22 @@ import MyImage from './profile_picture.jpg';
 const Header = () => {
   const myStyle = {
     color: "black",
-    backgroundColor: "#B2BEB5",
-    padding: "10px",
+    backgroundColor: "#D0D5DD",
+    padding: "20px",
     fontFamily: "Sans-Serif",
     textAlign: "center",
     textDecoration: "none",
     display: "flex",
     justifyContent: "center",
-    margin: "10px"
+    margin: "10px",
+    borderRadius: "4px",
+    fontWeight: "700"
   };
   const profile_Container = {
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
-    border: "2px solid red"
+    // border: "2px solid red"
   }
   const profile_name = {
     fontWeight: "900",
